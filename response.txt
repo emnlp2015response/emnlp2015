@@ -11,8 +11,8 @@ The relation ¡°gender¡± links 59,423 (18.79%) triplets in FB13 train data, its h
 its tail only links male, female. The complexity of relation ¡°gender¡± focus on the head because the names come from 
 186 nations and each nation has its own naming habits. Furthermore, another trouble is that the relation ¡°gender¡± is 
 difficult to reason. Maybe we can infer a person¡¯s gender according to the name (Socher et al., 2013, it shows that 
-we can infer the ¡°gender¡± from the words of a person¡¯s name).  However, in our approach, we encode each entity into 
-a vector, not the components (words) of an entity. Thus, the name information can¡¯t be used to infer the relation 
+we can infer the gender from the words of a person¡¯s name).  However, in our approach, we encode each entity into 
+a vector, not the components(words) of an entity. Thus, the name information can¡¯t be used to infer the relation 
 ¡°gender¡±. In fact, the prediction accuracy of ¡°gender¡± in classification task is lower than that of other relations 
 (only higher than that of relation ¡°cause_of_death¡±). The prediction accuracies of different relations in FB13 
 are shown in the following.
@@ -35,11 +35,13 @@ First, I explain how \theta is formulated. \theta_{min} is a hyper-parameter whi
 human, the other \theta(s) are determined by equation (4) or (6). Please note that, \theta(s) are not formulated 
 in the training process, we obtain them by (4) or (6) before training (All the values of notations in (4) and (6) 
 can be obtained by dataset statistics). We first calculate the \theta(s) for all transfer matrices, then we compute 
-the number of nonzero elements and determine the locations of them(nonzero elements) according to section 3.1. 
-During training£¬we only calculate the partial derivatives of the nonzero elements and 
+the number of non-zero elements and determine the locations of them(non-zero elements) according to section 3.1. 
+During training£¬we only calculate the partial derivatives of the non-zero elements and 
 update them, all the zero elements don¡¯t involve in computing. 
 
-All the parameters contain entity vectors, relation vectors and the nonzero elements in transfer matrices. The 
+All the parameters contain entity vectors, relation vectors and the non-zero elements in transfer matrices. The 
 objective is the ranking-loss function describe by (9), which is similar to TransR. We would show the details 
 of the learning algorithm in our paper.
+
+
 
