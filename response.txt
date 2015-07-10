@@ -27,16 +27,19 @@ Therefore, the relation ¡°gender¡± is not so simple as it seems.
 
 2.  Please see the answer of section 2 in ¡°For #Review#2¡±.
 
-3.	I¡¯m sorry that I can¡¯t understand the question clearly, especially the sentence ¡°The objective parameters are learning w, 
-a decomposition of M(\tehta), [among others]¡±. But I can describe the objective and parameters that it is optimized, and the process of learning.
+3.	I¡¯m sorry that I can¡¯t understand the question clearly, especially the sentence ¡°The objective parameters are 
+learning w, a decomposition of M(\tehta), [among others]¡±. But I can describe the objective and parameters that 
+it is optimized, and the process of learning.
 
-First, I explain how \theta is formulated. \theta_{min} is a hyper-parameter which need to be assigned value by human, 
-the other \theta(s) are determined by equation (4) or (6). Please note that, \theta(s) are not formulated in the training process, 
-we obtain them by (4) or (6) before training (All the values of notations in (4) and (6) can be obtained by dataset statistics). 
-We first calculate the \theta(s) for all transfer matrices, then we compute the number of nonzero elements and determine the locations of 
-them(nonzero elements) according to section 3.1. During training£¬we only calculate the partial derivatives of the nonzero elements and 
+First, I explain how \theta is formulated. \theta_{min} is a hyper-parameter which need to be assigned value by 
+human, the other \theta(s) are determined by equation (4) or (6). Please note that, \theta(s) are not formulated 
+in the training process, we obtain them by (4) or (6) before training (All the values of notations in (4) and (6) 
+can be obtained by dataset statistics). We first calculate the \theta(s) for all transfer matrices, then we compute 
+the number of nonzero elements and determine the locations of them(nonzero elements) according to section 3.1. 
+During training£¬we only calculate the partial derivatives of the nonzero elements and 
 update them, all the zero elements don¡¯t involve in computing. 
 
-All the parameters contain entity vectors, relation vectors and the nonzero elements in transfer matrices. The objective is the 
-ranking-loss function describe by (9), which is similar to TransR. We would show the details of the learning algorithm in our paper.
+All the parameters contain entity vectors, relation vectors and the nonzero elements in transfer matrices. The 
+objective is the ranking-loss function describe by (9), which is similar to TransR. We would show the details 
+of the learning algorithm in our paper.
 
