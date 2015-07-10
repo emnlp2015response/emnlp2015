@@ -12,8 +12,8 @@ its tail only links male, female. The complexity of relation ¡°gender¡± focus on
 186 nations and each nation has its own naming habits. Furthermore, another trouble is that the relation ¡°gender¡± is 
 difficult to reason. Maybe we can infer a person¡¯s gender according to the name (Socher et al., 2013, it shows that 
 we can infer the ¡°gender¡± from the words of a person¡¯s name).  However, in our approach, we encode each entity into 
-a vector, not the components (words) of an entity. Thus, the name information can¡¯t be used to infer the relation ¡°gender¡±. 
-In fact, the prediction accuracy of ¡°gender¡± in classification task is lower than that of other relations 
+a vector, not the components (words) of an entity. Thus, the name information can¡¯t be used to infer the relation 
+¡°gender¡±. In fact, the prediction accuracy of ¡°gender¡± in classification task is lower than that of other relations 
 (only higher than that of relation ¡°cause_of_death¡±). The prediction accuracies of different relations in FB13 
 are shown in the following.
 cause_of_death  0.831
