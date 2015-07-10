@@ -38,3 +38,4 @@ update them, all the zero elements don¡¯t involve in computing.
 
 All the parameters contain entity vectors, relation vectors and the nonzero elements in transfer matrices. The objective is the 
 ranking-loss function describe by (9), which is similar to TransR. We would show the details of the learning algorithm in our paper.
+
