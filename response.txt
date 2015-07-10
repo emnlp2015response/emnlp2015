@@ -3,7 +3,7 @@ their locations are fixed. Therefore, we do experiments 5 times for ¡°US¡± to en
 for ¡°S¡±.
 
 # Review #3
-1.	We argue that the complexity of a relation is proportional to the number of triplets (or entities) linked by it. 
+1. We argue that the complexity of a relation is proportional to the number of triplets (or entities) linked by it. 
 Because the more data linked by the relation, the more knowledge is related to it. In the view of intuition, 
 if a relation links much knowledge, the relation is complex.
 
@@ -25,9 +25,9 @@ institution  0.869
 ethnicity  0.893
 Therefore, the relation ¡°gender¡± is not so simple as it seems. 
 
-2.  Please see the answer of section 2 in ¡°For #Review#2¡±.
+2. Please see the answer of section 2 in ¡°For #Review#2¡±.
 
-3.	I¡¯m sorry that I can¡¯t understand the question clearly, especially the sentence ¡°The objective parameters are 
+3. I¡¯m sorry that I can¡¯t understand the question clearly, especially the sentence ¡°The objective parameters are 
 learning w, a decomposition of M(\tehta), [among others]¡±. But I can describe the objective and parameters that 
 it is optimized, and the process of learning.
 
