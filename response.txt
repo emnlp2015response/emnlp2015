@@ -8,7 +8,7 @@ Because the more data linked by the relation, the more knowledge is related to i
 if a relation links much knowledge, the relation is complex.
 
 The relation ¡°gender¡± links 59,423 (18.79%) triplets in FB13 train data, its head links 59,394 person names and 
-its tail only links male, female. The complexity of relation ¡°gender¡± focus on the head because the names come from 
+its tail only links male, female. The complexity of relation ¡°gender¡± focuses on the head because the names come from 
 186 nations and each nation has its own naming habits. Furthermore, another trouble is that the relation ¡°gender¡± is 
 difficult to reason. Maybe we can infer a person¡¯s gender according to the name (Socher et al., 2013, it shows that 
 we can infer the gender from the words of a person¡¯s name).  However, in our approach, we encode each entity into 
