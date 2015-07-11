@@ -31,7 +31,7 @@ Therefore, the relation ¡°gender¡± is not so simple as it seems.
 learning w, a decomposition of M(\tehta), [among others]¡±. But I can describe the objective and parameters that 
 it is optimized, and the process of learning.
 
-First, I explain how \theta is formulated. \theta_{min} is a hyper-parameter which need to be assigned value by 
+First, I explain how \theta is formulated. \theta_{min} is a hyper-parameter which needs to be assigned value by 
 human, the other \theta(s) are determined by equation (4) or (6). Please note that, \theta(s) are not formulated 
 in the training process, we obtain them by (4) or (6) before training (All the values of notations in (4) and (6) 
 can be obtained by dataset statistics). We first calculate the \theta(s) for all transfer matrices, then we compute 
